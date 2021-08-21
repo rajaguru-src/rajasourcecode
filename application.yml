@@ -5,4 +5,4 @@ eureka:
     service-url:
       defaultZone: https://etmdiscovery.azurewebsites.net/eureka
     instance:
-      hostname: https://etmdiscovery.azurewebsites.net
+      preferIpAddress: true
