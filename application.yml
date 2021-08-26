@@ -3,4 +3,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: https://etmdiscovery.azurewebsites.net/eureka
+      defaultZone: https://etmdiscovery.azurewebsites.net
