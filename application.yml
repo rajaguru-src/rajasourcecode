@@ -3,6 +3,6 @@ eureka:
       register-with-eureka: true
       fetch-registry: true
       serviceUrl:
-          defaultZone: https://etmdiscovery.azurewebsites.net:8761/eureka
+          defaultZone: https://etmdiscovery.azurewebsites.net
       instance:
         preferIpAddress: true
