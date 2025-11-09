@@ -1,0 +1,14 @@
+<p>pipecomponent works!</p>
+<h2>Pipe eg</h2>
+<h3> All Notes</h3>
+<ol>
+  <li *ngFor="let note of notes">{{note.title}}-{{note.status}}</li>
+</ol>
+<h3> Active Notes</h3>
+<ol>
+  <li *ngFor="let note of notes | filterByStatus:'active'">{{note.title}}-{{note.status}}</li>
+</ol>
+<h3> Completed Notes</h3>
+<ol>
+  <li *ngFor="let note of notes | filterByStatus:'complete'">{{note.title}}-{{note.status}}</li>
+</ol>
