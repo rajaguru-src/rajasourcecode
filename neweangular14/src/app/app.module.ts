@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
@@ -24,7 +25,8 @@ import { ApiExampleComponent } from './api-example/api-example.component';
     AppRoutingModule,
     SharedModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

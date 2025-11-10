@@ -4,3 +4,11 @@
 <input type="password" formControlName="password" placeholder="PassWord"/>
 <button type="submit" [disabled]="loginForm.invalid">login</button>
 </form>
+<p>Template form works!</p>
+<form #userform="ngForm" (ngSubmit)="submit1(userform)">
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email" placeholder="Email" required email pattern="" [(ngModel)]="user.email"/>
+    <label for="email">password</label>
+    <input type="password" name="password" id="password" placeholder="Password" required [(ngModel)]="user.password"/>
+    <button type="submit" [disabled]="userform.invalid">login</button>
+</form>
