@@ -16,17 +16,19 @@ Raja@job123
 🔸 Legacy PHP Experience: ≈ 6 years
 
 
-Apr 2024 – Jan 2025	9 month - BirlaSoft Ltd.	Technical Specialist	Java, Spring Boot, Microservices, Angular
-Feb 2017 – Feb 2024	7 year  - Changepond Technologies	Senior Technical Analyst	Java, Spring Boot, Angular, React, Microservices
-Mar 2016 – Nov 2016	8 month - Renault Nissan Tech (Magna Infotech)	Sr. Software Engineer	Java, Spring MVC
-Jan 2013 – Feb 2016	3 year 1 month - Cashlink Global Systems	Web Dev / Team Lead	Java, JSP, PHP
+Apr 2024 – Jan 2025	9 month (java) - BirlaSoft Ltd.	Technical Specialist	Java, Spring Boot, Microservices, Angular
+Feb 2017 – Feb 2024	7 year (2 year angular + 5 year java)  - Changepond Technologies	Senior Technical Analyst	Java, Spring Boot, Angular, React, Microservices
+Mar 2016 – Nov 2016	8 month (java) - Renault Nissan Tech (Magna Infotech)	Sr. Software Engineer	Java, Spring MVC
+Jan 2013 – Feb 2016	3 year 1 (2 year) month - Cashlink Global Systems	Web Dev / Team Lead	Java, JSP, PHP
 Aug 2011 – Jan 2013	1 year 5 month - Squaiz International	Web Developer	PHP, MySQL
 Sep 2010 – Jul 2011	10 month - Hazeeb Multimedia Software	Web Developer	PHP, MySQL
 
-full java = 6 full stack
-angular = 4 Years
+full java = 5 + 3.6 full stack
+angular = 7 Years
 react  = 2 year 
 
   
+six 
+canacord
 
 year 13.9
