@@ -10,7 +10,9 @@ import { SharedModule } from './shared/shared.module';
 import { PipecomponentComponent } from './pipe-example/pipecomponent.component';
 import { DirectiveComponent } from './directive-example/directive.component';
 import { ReactiveComponent } from './reactive/reactive.component';
-import { ApiExampleComponent } from './api-example/api-example.component';
+//import { ApiExampleComponent } from './api-example/api-example.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DatabindComponent } from './databind/databind.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { ApiExampleComponent } from './api-example/api-example.component';
     PipecomponentComponent,
     DirectiveComponent,
     ReactiveComponent,
-    ApiExampleComponent
+    DatabindComponent
+  //  ApiExampleComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import { ApiExampleComponent } from './api-example/api-example.component';
     SharedModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,7 +2,7 @@
 <form [formGroup]="loginForm" (ngSubmit)="submit()">
 <input type="text" formControlName="email" placeholder="Email"/>
 <input type="password" formControlName="password" placeholder="PassWord"/>
-<button type="submit" [disabled]="loginForm.invalid">login</button>
+<button type="submit" [disabled]="loginForm.invalid" class="btn btn-primary">login</button>
 </form>
 <p>Template form works!</p>
 <form #userform="ngForm" (ngSubmit)="submit1(userform)">
@@ -10,5 +10,5 @@
     <input type="text" name="email" id="email" placeholder="Email" required email pattern="" [(ngModel)]="user.email"/>
     <label for="email">password</label>
     <input type="password" name="password" id="password" placeholder="Password" required [(ngModel)]="user.password"/>
-    <button type="submit" [disabled]="userform.invalid">login</button>
+    <button type="submit" [disabled]="userform.invalid" class="btn btn-primary">login</button>
 </form>

@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,NgModule } from '@angular/core';
 import { ApiService } from '../shared/service/api.service';
 import { User } from '../interfaces/user';
 import { filter, map } from 'rxjs';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-api-example',
   templateUrl: './api-example.component.html',
-  styleUrls: ['./api-example.component.sass']
+  styleUrls: ['./api-example.component.sass'],
+  standalone: true,
+   imports: [CommonModule]
 })
 export class ApiExampleComponent implements OnInit {
-  users: User[]=[];
+  users: User[]=[]; 
   constructor(private apiService:ApiService) { 
     this.apiService.getUser().subscribe(data=>{
       this.users = data;

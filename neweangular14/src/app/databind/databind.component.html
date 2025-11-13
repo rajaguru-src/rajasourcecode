@@ -1,0 +1,16 @@
+<p>databind works!</p>
+<p>Interpolation</p>
+<h2>{{ title }}</h2>
+<!-- Property Binding -->
+ <p>Property Binding</p>
+<img [src]="imageUrl" alt="Angular Logo" width="100">
+
+<!-- Event Binding -->
+ <p>Event Binding</p>
+<button (click)="showMessage()">Click Me</button>
+<p>{{ message }}</p>
+
+<!-- Two-way Data Binding -->
+ <p>Two-way Data Binding</p>
+<input type="text" [(ngModel)]="username" placeholder="Enter your name">
+<p>Your name: {{ username }}</p>
